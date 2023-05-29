@@ -10,7 +10,7 @@ diretório é uma lista de ITEM
 import os
 #import json
 
-def directory (caminho,diretorio):
+def directory (caminho,pasta):
     lista = os.listdir(caminho)
     if len(lista) == 0:
         return []
@@ -23,8 +23,8 @@ def directory (caminho,diretorio):
             item["Arquivos"].append(entrada.name)
         if entrada.is_dir():
             item["Diretorios"] = directory(entrada.path,item["Diretorios"])
-    diretorio.append(item)
-    return diretorio
+    pasta.append(item)
+    return pasta
 
 path = input("Entre com o caminho do diretório: ")
 diretorio = []
