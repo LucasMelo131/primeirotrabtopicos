@@ -11,9 +11,6 @@ import os
 #import json
 
 def directory (caminho,pasta):
-    lista = os.listdir(caminho)
-    if len(lista) == 0:
-        return []
     item = {}
     item["Nome"] = os.path.basename(caminho)
     item["Arquivos"] = []
