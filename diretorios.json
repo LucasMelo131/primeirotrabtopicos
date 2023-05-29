@@ -1,0 +1,66 @@
+[
+    {
+        "Nome": "UFF",
+        "Arquivos": [],
+        "Diretorios": [
+            {
+                "Nome": "APA",
+                "Arquivos": [
+                    "Sanjoy Dasgupta, Christos H. Papadimitriou, Umesh Vazirani - Algorithms-McGraw-Hill (2011).pdf",
+                    "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein - Introduction to Algorithms-The MIT Press (2022).pdf"
+                ],
+                "Diretorios": []
+            },
+            {
+                "Nome": "Banco de Dados",
+                "Arquivos": [
+                    "Carlos Coronel, Steven Morris - Database Systems_ Design, Implementation, & Management-Cengage Learning (2016).pdf",
+                    "Sistemas de Banco de Dados navathe 6ª Edicao.pdf"
+                ],
+                "Diretorios": []
+            },
+            {
+                "Nome": "IHC",
+                "Arquivos": [],
+                "Diretorios": []
+            },
+            {
+                "Nome": "Linguagens de Programação",
+                "Arquivos": [
+                    "Marijn Haverbeke - Eloquent JavaScript_ A Modern Introduction to Programming-No Starch Press (2019).pdf",
+                    "Michael L. Scott - Programming Language Pragmatics-Morgan Kaufmann (2016).pdf",
+                    "Robert W. Sebesta - Concepts of Programming Languages-Pearson (2019).pdf"
+                ],
+                "Diretorios": []
+            },
+            {
+                "Nome": "Prog com Arquivos",
+                "Arquivos": [
+                    "01122022.csv",
+                    "13022022.csv",
+                    "18052022.csv",
+                    "27082022.csv",
+                    "31102022.csv",
+                    "VSCodeUserSetup-x64-1.77.3.exe"
+                ],
+                "Diretorios": []
+            },
+            {
+                "Nome": "Redes de Computadores",
+                "Arquivos": [
+                    "Kurose, James F._ Ross, Keith W. - Computer networking _ a top-down approach (2017).pdf",
+                    "Livro de Rede de Computadores e a Internet.pdf"
+                ],
+                "Diretorios": []
+            },
+            {
+                "Nome": "Tópicos 1",
+                "Arquivos": [
+                    "funcionarios.py",
+                    "vruuuuuuuuuuum.py"
+                ],
+                "Diretorios": []
+            }
+        ]
+    }
+]

@@ -8,7 +8,7 @@ diretório é uma lista de ITEM
 """
 
 import os
-#import json
+import json
 
 def directory (caminho,pasta):
     item = {}
@@ -26,4 +26,6 @@ def directory (caminho,pasta):
 path = input("Entre com o caminho do diretório: ")
 diretorio = []
 diretorio = directory(path,diretorio)
-print(diretorio)
+with open("diretorios.json","w",encoding="UTF-8") as jsonfile:
+    json_object = json.dumps(diretorio,indent=4,ensure_ascii=False)
+    jsonfile.write(json_object)
